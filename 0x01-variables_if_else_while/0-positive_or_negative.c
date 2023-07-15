@@ -13,8 +13,6 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-printf("%d \n", n);
-
 /* Our own code will go here */
 if (n > 0)
 {
