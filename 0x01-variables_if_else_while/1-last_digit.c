@@ -16,15 +16,15 @@ x = n % 10;
 /* Our own code will go here */
 if (x > 5)
 {
-printf("last digit of %d is %d and is  greater than 5\n", n, x);
+printf("Last digit of %d is %d and is  greater than 5\n", n, x);
 }
 else if (x == 0)
 {
-printf("last digit of %d is %d is and 0\n", n, x);
+printf("Last digit of %d is %d is and 0\n", n, x);
 }
 else
 {
-printf("last digit of %d is %d and is less than 6 and not 0\n", n, x);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, x);
 }
 return (0);
 }
